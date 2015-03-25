@@ -16,7 +16,15 @@
 		resize: "both",
 		entity_encoding: "raw",
 		plugins: "paste,fullscreen,link,code,-jbimages,-pkpTags,noneditable",
-		language: "{$currentLocale|substr:0:2}",
+
+		{* If a language pack exists, include it. *}
+		{assign var=locale2Letter value=$currentLocale|substr:0:2}
+		{assign var=localePath value="plugins/generic/tinymce/langs/"|concat:$locale2Letter:".js"}
+		{if file_exists($localePath)}
+			language: "{$locale2Letter}",
+			language_url: "{$baseUrl}/plugins/generic/tinymce/langs/{$locale2Letter}.js",
+		{/if}
+
 		relative_urls: false,
 		forced_root_block: "p",
 		paste_auto_cleanup_on_paste: true,
