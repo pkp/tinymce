@@ -30,8 +30,9 @@
 		paste_auto_cleanup_on_paste: true,
 		apply_source_formatting: false,
 		theme : "modern",
-		menubar: false,
-		toolbar: "cut copy paste | bold italic underline | bullist numlist | superscript subscript | link unlink code fullscreen | jbimages | pkpTags",
+		toolbar: "copy paste | bold italic underline | link unlink code fullscreen | jbimages | pkpTags",
+		richToolbar: "copy paste | bold italic underline | bullist numlist | superscript subscript | link unlink code fullscreen | jbimages | pkpTags",
+		statusbar: false,
 		init_instance_callback: $.pkp.controllers.SiteHandler.prototype.triggerTinyMCEInitialized,
 		setup: $.pkp.controllers.SiteHandler.prototype.triggerTinyMCESetup,
 		content_css: "{$baseUrl}/plugins/generic/tinymce/styles/content.css"
