@@ -25,7 +25,7 @@
 			language_url: "{$baseUrl}/plugins/generic/tinymce/langs/{$locale2Letter}.js",
 		{/if}
 
-		relative_urls: false,
+		convert_urls: false,
 		forced_root_block: "p",
 		paste_auto_cleanup_on_paste: true,
 		apply_source_formatting: false,
