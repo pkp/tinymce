@@ -11,7 +11,7 @@
   * Localization strings for the ru_RU locale.
   -->
 
-<locale name="ru_RU" full_name="Russian">
+<locale name="ru_RU" full_name="Русский">
 	<message key="plugins.generic.tinymce.name">Модуль TinyMCE</message>
 	<message key="plugins.generic.tinymce.description"><![CDATA[Модуль позволяет визуальное (WYSIWYG) редактирование текстовых полей в OMP с использованием редактора <a href="http://tinymce.moxiecode.com" target="_blank">TinyMCE</a>.]]></message>
 	<message key="plugins.generic.tinymce.settings">Настройки</message>
