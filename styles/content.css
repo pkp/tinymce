@@ -8,7 +8,33 @@
  * @brief Additional CSS for TinyMCE content editor
  */
 
+@import url('http://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic');
+
+html,
+body {
+	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	background: #eee;
+}
+
 span.pkpTag {
-	background-color: #ddddff;
-	padding: 2px;
+	padding: 0.5em;
+	font-size: 10px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #777;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+
+a {
+	color: #007ab2;
+}
+
+a:hover,
+a:focus {
+	color: #113241;
 }
