@@ -71,7 +71,7 @@ class TinyMCEPlugin extends GenericPlugin {
 		$allLocales = AppLocale::getAllLocales();
 		$localeList = array();
 		foreach ($allLocales as $key => $locale) {
-			$localeList[] = String::substr($key, 0, 2);
+			$localeList[] = PKPString::substr($key, 0, 2);
 		}
 
 		$templateManager->assign(
