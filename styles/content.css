@@ -24,10 +24,6 @@ span.pkpTag {
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #777;
-	background: #fff;
-	border: 1px solid #ddd;
-	border-radius: 3px;
-	box-shadow: 0 1px 1px rgba(0,0,0,0.2);
 }
 
 a {
