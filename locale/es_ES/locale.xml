@@ -14,6 +14,5 @@
 <locale name="es_ES" full_name="Español (España)">
 	<message key="plugins.generic.tinymce.name">Plugin TinyMCE</message>
 	<message key="plugins.generic.tinymce.description"><![CDATA[Este complemento habilita la edición WYSIWYG de las áreas de texto OMP mediante el editor de contenidos <a href="http://tinymce.moxiecode.com" target="_blank">TinyMCE</a>.]]></message>
-	<message key="plugins.generic.tinymce.descriptionDisabled"><![CDATA[Este complemento habilita la edición WYSIWYG de las áreas de texto OMP mediante el editor de contenidos <a href="http://tinymce.moxiecode.com" target="_blank">TinyMCE</a>. <strong>TinyMCE no se encuentra instalado actualmente; instálelo en {$tinyMcePath}.</strong>]]></message>
 	<message key="plugins.generic.tinymce.settings">Preferéncias</message>
 </locale>

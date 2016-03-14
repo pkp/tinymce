@@ -9,7 +9,7 @@
   *
   * Localization strings for the fa_IR (فارسی) locale.
   -->
-<locale full_name="Farsi" name="fa_IR" >
+<locale name="fa_IR" full_name="فارسی">
 	<message key="plugins.generic.tinymce.name" >پلاگین TinyMCE</message>
 	<message key="plugins.generic.tinymce.description" ><![CDATA[با این پلاگین میتوان متون موجود در جعبه های متن را بصورتی که میخواهید ویرایش کنید. برای این کار از ویرایشگر محتوی <a href="http://tinymce.moxiecode.com" target="_blank">TinyMCE</a> استفاده میشود.]]></message>
 	<message key="plugins.generic.tinymce.settings" >تنظیمات</message>
