@@ -15,4 +15,12 @@
 	<message key="plugins.generic.tinymce.name">Plugin TinyMCE</message>
 	<message key="plugins.generic.tinymce.description"><![CDATA[Tento plugin umožňuje WYSIWYG editování textových polí OMP s využitím <a href="http://tinymce.moxiecode.com" target="_blank">TinyMCE</a> editoru obsahu.]]></message>
 	<message key="plugins.generic.tinymce.settings">Nastavení</message>
+	<message key="plugins.generic.tinymce.pkpTags.listTags">Vybrat štítek</message>
+	<message key="plugins.generic.tinymce.pkpTags.noneAvailable">Pro toto pole nejsou štítky dostupné.</message>
+	<message key="plugins.generic.tinymce.pkpTags.description">Můžete vložit libovolný z následujících štítků:</message>
+	<message key="plugins.generic.tinymce.variables.principalContactName">Jméno hlavního kontaktu ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.principalContactEmail">Email hlavního kontaktu ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactName">Jméno podpory ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactEmail">Email na podporu ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactPhone">Telefon na podporu ("{$value}")</message>
 </locale>
