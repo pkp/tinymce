@@ -20,6 +20,6 @@
 
 <locale name="el_GR" full_name="ελληνικά">
 	<message key="plugins.generic.tinymce.name">TinyMCE Plugin</message>
-	<message key="plugins.generic.tinymce.description"><![CDATA[Το plugin αυτό ενεργοποιεί την WYSIWYG επεξεργασία των πεδίων κειμένου του OMP με την χρήση του  επεξεργαστή περιεχομένου <a href="http://tinymce.moxiecode.com" target="_blank">TinyMCE</a>.]]></message>
+	<message key="plugins.generic.tinymce.description"><![CDATA[Το plugin αυτό ενεργοποιεί την WYSIWYG επεξεργασία των πεδίων κειμένου του OMP με την χρήση του  επεξεργαστή περιεχομένου <a href="https://www.tinymce.com" target="_blank">TinyMCE</a>.]]></message>
 	<message key="plugins.generic.tinymce.settings">Ρυθμίσεις</message>
 </locale>

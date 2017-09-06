@@ -13,7 +13,7 @@
 
 <locale name="sr_RS@latin" full_name="Srpski">
 	<message key="plugins.generic.tinymce.name">TinyMCE dodatak</message>
-	<message key="plugins.generic.tinymce.description"><![CDATA[Ovaj dodatak omogućuje vizualno oblikovanje OJS-ovih tekstualnih polja pomoću <a href="http://tinymce.moxiecode.com" target="_blank">TinyMCE</a> programa za uređivanje teksta.]]></message>
+	<message key="plugins.generic.tinymce.description"><![CDATA[Ovaj dodatak omogućuje vizualno oblikovanje OJS-ovih tekstualnih polja pomoću <a href="https://www.tinymce.com" target="_blank">TinyMCE</a> programa za uređivanje teksta.]]></message>
 	<message key="plugins.generic.tinymce.settings">Podešavanja</message>
 	<message key="plugins.generic.tinymce.pkpTags.listTags">Obeleži oznaku</message>
 	<message key="plugins.generic.tinymce.pkpTags.noneAvailable">Nema dostubnih oznaka za ovo polje</message>

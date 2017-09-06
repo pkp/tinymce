@@ -13,7 +13,7 @@
 
 <locale name="cs_CZ" full_name="Čeština">
 	<message key="plugins.generic.tinymce.name">Plugin TinyMCE</message>
-	<message key="plugins.generic.tinymce.description"><![CDATA[Tento plugin umožňuje WYSIWYG editování textových polí OMP s využitím <a href="http://tinymce.moxiecode.com" target="_blank">TinyMCE</a> editoru obsahu.]]></message>
+	<message key="plugins.generic.tinymce.description"><![CDATA[Tento plugin umožňuje WYSIWYG editování textových polí OMP s využitím <a href="https://www.tinymce.com" target="_blank">TinyMCE</a> editoru obsahu.]]></message>
 	<message key="plugins.generic.tinymce.settings">Nastavení</message>
 	<message key="plugins.generic.tinymce.pkpTags.listTags">Vybrat štítek</message>
 	<message key="plugins.generic.tinymce.pkpTags.noneAvailable">Pro toto pole nejsou štítky dostupné.</message>

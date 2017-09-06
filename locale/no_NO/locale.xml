@@ -13,6 +13,6 @@
 
 <locale name="no_NO" full_name="Norsk">
 	<message key="plugins.generic.tinymce.name">TinyMCE-plugin</message>
-	<message key="plugins.generic.tinymce.description"><![CDATA[Denne plugin'en oppretter WYSIWYG-redigering i OMP tekstfelt ved bruk av <a href="http://tinymce.moxiecode.com" target="_blank">TinyMCE</a>-editor.]]></message>
+	<message key="plugins.generic.tinymce.description"><![CDATA[Denne plugin'en oppretter WYSIWYG-redigering i OMP tekstfelt ved bruk av <a href="https://www.tinymce.com" target="_blank">TinyMCE</a>-editor.]]></message>
 	<message key="plugins.generic.tinymce.settings">Innstillinger</message>
 </locale>

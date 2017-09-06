@@ -13,6 +13,6 @@
 
 <locale name="tr_TR" full_name="Türkçe">
 	<message key="plugins.generic.tinymce.name">TinyMCE Eklentisi</message>
-	<message key="plugins.generic.tinymce.description"><![CDATA[Bu eklenti OMP yazı alanlarının <a href="http://tinymce.moxiecode.com" target="_blank">TinyMCE</a> içerik düzenleyici kullanılarak görüldüğü gibi yazılmasını sağlar.]]></message>
+	<message key="plugins.generic.tinymce.description"><![CDATA[Bu eklenti OMP yazı alanlarının <a href="https://www.tinymce.com" target="_blank">TinyMCE</a> içerik düzenleyici kullanılarak görüldüğü gibi yazılmasını sağlar.]]></message>
 	<message key="plugins.generic.tinymce.settings">Ayarlar</message>
 </locale>
