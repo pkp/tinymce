@@ -73,6 +73,20 @@ class IntegratePKP {
 		Registry::get('localeFiles', true, array($locale => array($localeFile)));
 
 		// Load user variables
+		// Set the correct default cookie path to be the same as OJS core
+		// in order to get the correct session and thus user from the session
+		$configData =& Config::getData();
+		$cookiePathSet = false;
+		if (!array_key_exists('session_cookie_path', $configData['general'])) {
+			// Get paths to system base directories
+			$baseCookiePath = $_SERVER['SCRIPT_NAME'];
+			for ($i = 0; $i < 7; $i++) $baseCookiePath = dirname($baseCookiePath);
+			if ($baseCookiePath == '/' || $baseCookiePath == '\\') {
+				$baseCookiePath = '';
+			}
+			$configData['general']['session_cookie_path'] = $baseCookiePath . '/';
+			$cookiePathSet = true;
+		}
 		$sessionManager = SessionManager::getManager();
 		$userSession = $sessionManager->getUserSession();
 		$user = $userSession->getUser();
@@ -117,6 +131,9 @@ class IntegratePKP {
 			$this->imageDir = null;
 		}
 
+		if ($cookiePathSet) {
+			unset($configData['general']['session_cookie_path']);
+		}
 		// Set the base directory back to its original location
 		chdir(dirname($_SERVER['SCRIPT_FILENAME']));
 	}
