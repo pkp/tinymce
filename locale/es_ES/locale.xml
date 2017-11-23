@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
 <!--
-  * locale/es_ES/locale.xml
+  * locale.xml
   *
-  * Copyright (c) 2013-2017 Simon Fraser University Library
+  * Copyright (c) 2014-2017 Simon Fraser University
   * Copyright (c) 2003-2017 John Willinsky
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
-  *
   * Credits: https://pkp.sfu.ca/wiki/index.php?title=OJS:_Spanish_(es_ES)
-  * Traducción de la versión original 1.2 por Juan Pablo Alperin - 2006/06/29
-  *
-  * Localization strings
+  * Localization strings for the en_US (U.S. English) locale.
   -->
 
 <locale name="es_ES" full_name="Español (España)">
