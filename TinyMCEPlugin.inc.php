@@ -17,15 +17,11 @@ import('lib.pkp.classes.plugins.GenericPlugin');
 
 class TinyMCEPlugin extends GenericPlugin {
 	/**
-	 * Register the plugin, if enabled; note that this plugin
-	 * runs under both context and site levels.
-	 * @param $category string
-	 * @param $path string
-	 * @return boolean
+	 * @copydoc Plugin::register()
 	 */
-	function register($category, $path) {
-		if (parent::register($category, $path)) {
-			if ($this->getEnabled()) {
+	function register($category, $path, $mainContextId = null) {
+		if (parent::register($category, $path, $mainContextId)) {
+			if ($this->getEnabled($mainContextId)) {
 				HookRegistry::register('TemplateManager::display',array(&$this, 'registerJS'));
 				HookRegistry::register('TemplateManager::registerJSLibraryData',array(&$this, 'registerJSData'));
 			}
@@ -35,25 +31,21 @@ class TinyMCEPlugin extends GenericPlugin {
 	}
 
 	/**
-	 * Get the name of the settings file to be installed on new context
-	 * creation.
-	 * @return string
+	 * @copydoc Plugin::getContextSpecificPluginSettingsFile()
 	 */
 	function getContextSpecificPluginSettingsFile() {
 		return $this->getPluginPath() . '/settings.xml';
 	}
 
 	/**
-	 * Get the name of the settings file to be installed site-wide when
-	 * the application is installed.
-	 * @return string
+	 * @copydoc Plugin::getInstallSitePluginSettingsFile()
 	 */
 	function getInstallSitePluginSettingsFile() {
 		return $this->getPluginPath() . '/settings.xml';
 	}
 
 	/**
-	 * @copydoc PKPPlugin::getTemplatePath
+	 * @copydoc PKPPlugin::getTemplatePath()
 	 */
 	function getTemplatePath($inCore = false) {
 		return parent::getTemplatePath($inCore) . 'templates/';
@@ -112,16 +104,14 @@ class TinyMCEPlugin extends GenericPlugin {
 	}
 
 	/**
-	 * Get the display name of this plugin
-	 * @return string
+	 * @copydoc Plugin::getDisplayName()
 	 */
 	function getDisplayName() {
 		return __('plugins.generic.tinymce.name');
 	}
 
 	/**
-	 * Get the description of this plugin
-	 * @return string
+	 * @copydoc Plugin::getDescription()
 	 */
 	function getDescription() {
 		return __('plugins.generic.tinymce.description');
