@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization information: https://pkp.sfu.ca/wiki/index.php?title=OJS:_Ukrainian_(uk_UA)
+  * Localization strings for the uk_UA (Українська) locale.
+  -->
+
+<locale name="uk_UA" full_name="Українська">
+	<message key="plugins.generic.tinymce.name">Модуль TinyMCE</message>
+	<message key="plugins.generic.tinymce.description"><![CDATA[Вмикає візуальне редагування (WYSIWYG) в текстових полях з використанням редактора контента <a href="https://www.tinymce.com" target="_blank">TinyMCE</a>.]]></message>
+	<message key="plugins.generic.tinymce.settings">Налаштування</message>
+
+	<message key="plugins.generic.tinymce.pkpTags.listTags">Обрати тег</message>
+	<message key="plugins.generic.tinymce.pkpTags.noneAvailable">Немає тегів, доступних для цього поля.</message>
+	<message key="plugins.generic.tinymce.pkpTags.description">Ви можете вствити будь-який з наступних тегів:</message>
+
+	<message key="plugins.generic.tinymce.variables.principalContactName">Ім'я представника редакції ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.principalContactEmail">Електронна пошта представника редакції ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactName">Ім'я представника технічної підтримки ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactEmail">Електронна пошта представника технічної підтримки ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactPhone">Телефон представника технічної підтримки ("{$value}")</message>
+</locale>
