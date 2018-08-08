@@ -8,14 +8,18 @@
  * @brief Additional CSS for TinyMCE content editor
  */
 
-@import url('//fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic');
-
 html,
 body {
 	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	background: #fff;
+	padding: 14px;
+	margin: 0;
+}
+
+p:first-child {
+	margin-top: 0;
 }
 
 span.pkpTag {
