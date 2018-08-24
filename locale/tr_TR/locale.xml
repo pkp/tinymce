@@ -15,4 +15,12 @@
 	<message key="plugins.generic.tinymce.name">TinyMCE Eklentisi</message>
 	<message key="plugins.generic.tinymce.description"><![CDATA[Bu eklenti OMP yazı alanlarının <a href="https://www.tinymce.com" target="_blank">TinyMCE</a> içerik düzenleyici kullanılarak görüldüğü gibi yazılmasını sağlar.]]></message>
 	<message key="plugins.generic.tinymce.settings">Ayarlar</message>
+	<message key="plugins.generic.tinymce.pkpTags.listTags">Etiket Seç</message>
+	<message key="plugins.generic.tinymce.pkpTags.noneAvailable">Bu alan için etiket yok.</message>
+	<message key="plugins.generic.tinymce.pkpTags.description">Aşağıdaki etiketlerden herhangi birini ekleyebilirsiniz:</message>
+	<message key="plugins.generic.tinymce.variables.principalContactName">Temel İletişim Adı ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.principalContactEmail">Temel İletişim e-Postası ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactName">Destek İletişim Adı ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactEmail">Destek İletişim e-Postası ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactPhone">Destek İletişim Telefonu ("{$value}")</message>
 </locale>
