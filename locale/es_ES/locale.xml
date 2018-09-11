@@ -4,16 +4,23 @@
 <!--
   * locale.xml
   *
-  * Copyright (c) 2014-2017 Simon Fraser University
-  * Copyright (c) 2003-2017 John Willinsky
-
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
-  * Localization strings for the es_ES locale.
-  * Traducción de la versión original 1.2 por Juan Pablo Alperin - 2006/06/29
+  * Credits: https://pkp.sfu.ca/wiki/index.php?title=OJS:_Spanish_(es_ES)
+  * Localization strings for the es_ES (Español (España)) locale.
   -->
 
 <locale name="es_ES" full_name="Español (España)">
-	<message key="plugins.generic.tinymce.name">Plugin TinyMCE</message>
-	<message key="plugins.generic.tinymce.description"><![CDATA[Este complemento habilita la edición WYSIWYG de las áreas de texto OMP mediante el editor de contenidos <a href="http://tinymce.moxiecode.com" target="_blank">TinyMCE</a>.]]></message>
-	<message key="plugins.generic.tinymce.settings">Preferencias</message>
+  <message key="plugins.generic.tinymce.name">Módulo TinyMCE</message>
+  <message key="plugins.generic.tinymce.description"><![CDATA[Este módulo habilita la edición WYSIWYG de las áreas de texto de OJS mediante el editor de contenidos <a href="https://www.tinymce.com" target="_blank">TinyMCE</a>.]]></message>
+  <message key="plugins.generic.tinymce.settings">Ajustes</message>
+	<message key="plugins.generic.tinymce.pkpTags.listTags">Seleccionar etiqueta</message>
+	<message key="plugins.generic.tinymce.pkpTags.noneAvailable">No hay etiquetas disponibles para este campo.</message>
+	<message key="plugins.generic.tinymce.pkpTags.description">Puede insertar cualquiera de las etiquetas siguientes:</message>
+	<message key="plugins.generic.tinymce.variables.principalContactName">Nombre del contacto principal ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.principalContactEmail">Correo electrónico del contacto principal ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactName">Nombre del contacto de soporte ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactEmail">Correo electrónico del contacto de soporte ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactPhone">Teléfono del contacto de soporte ("{$value}")</message>
 </locale>

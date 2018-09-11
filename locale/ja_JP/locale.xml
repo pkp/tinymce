@@ -4,8 +4,8 @@
 <!--
   * locale.xml
   *
-  * Copyright (c) 2014-2017 Simon Fraser University
-  * Copyright (c) 2003-2017 John Willinsky
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
   * Localization strings for the ja_JP (日本語) locale.
@@ -13,6 +13,6 @@
 
 <locale name="ja_JP" full_name="日本語">
 	<message key="plugins.generic.tinymce.name">TinyMCEプラグイン</message>
-	<message key="plugins.generic.tinymce.description"><![CDATA[<a href="http://tinymce.moxiecode.com" target="_blank">TinyMCE</a>コンテンツエディタを使って、テキストエリアの内容をWSYWIGで編集できるようにします。]]></message>
+	<message key="plugins.generic.tinymce.description"><![CDATA[<a href="https://www.tinymce.com" target="_blank">TinyMCE</a>コンテンツエディタを使って、テキストエリアの内容をWSYWIGで編集できるようにします。]]></message>
 	<message key="plugins.generic.tinymce.settings">設定</message>
 </locale>

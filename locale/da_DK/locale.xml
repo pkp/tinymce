@@ -4,15 +4,23 @@
 <!--
   * locale.xml
   *
-  * Copyright (c) 2014-2017 Simon Fraser University
-  * Copyright (c) 2003-2017 John Willinsky
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
   * Localization strings for the da_DK (Dansk) locale.
   -->
 
 <locale name="da_DK" full_name="Dansk">
-	<message key="plugins.generic.tinymce.name">TinyMCE Plugin</message>
-	<message key="plugins.generic.tinymce.description"><![CDATA[Dette plugin aktiverer WYSIWYG redigering af OMP tekstfelter ved hjælp af <a href="http://tinymce.moxiecode.com" target="_blank">TinyMCE</a> tekstbehandleren.]]></message>
+	<message key="plugins.generic.tinymce.name">TinyMCE Plug-in</message>
+	<message key="plugins.generic.tinymce.description"><![CDATA[Denne plug-in aktiverer WYSIWYG redigering af tekstfelter ved hjælp af <a href="https://www.tinymce.com" target="_blank">TinyMCE</a> tekstbehandleren.]]></message>
 	<message key="plugins.generic.tinymce.settings">Indstillinger</message>
+	<message key="plugins.generic.tinymce.pkpTags.listTags">Vælg tag</message>
+	<message key="plugins.generic.tinymce.pkpTags.noneAvailable">Intet tag er til rådighed for dette felt.</message>
+	<message key="plugins.generic.tinymce.pkpTags.description">Du kan indsætte en af følgende tags:</message>
+	<message key="plugins.generic.tinymce.variables.principalContactName">Primær kontaktnavn ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.principalContactEmail">Primær kontakt-e-mail ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactName">Support-kontaktnavn ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactEmail">Support-kontakt-e-mail ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactPhone">Support-kontakttelefon ("{$value}")</message>
 </locale>

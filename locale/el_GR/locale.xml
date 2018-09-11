@@ -4,8 +4,8 @@
 <!--
   * locale.xml
   *
-  * Copyright (c) 2014-2017 Simon Fraser University
-  * Copyright (c) 2003-2017 John Willinsky
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
   * Localization strings for the el_GR (ελληνικά) locale.
@@ -20,6 +20,6 @@
 
 <locale name="el_GR" full_name="ελληνικά">
 	<message key="plugins.generic.tinymce.name">TinyMCE Plugin</message>
-	<message key="plugins.generic.tinymce.description"><![CDATA[Το plugin αυτό ενεργοποιεί την WYSIWYG επεξεργασία των πεδίων κειμένου του OMP με την χρήση του  επεξεργαστή περιεχομένου <a href="http://tinymce.moxiecode.com" target="_blank">TinyMCE</a>.]]></message>
+	<message key="plugins.generic.tinymce.description"><![CDATA[Το plugin αυτό ενεργοποιεί την WYSIWYG επεξεργασία των πεδίων κειμένου του OMP με την χρήση του  επεξεργαστή περιεχομένου <a href="https://www.tinymce.com" target="_blank">TinyMCE</a>.]]></message>
 	<message key="plugins.generic.tinymce.settings">Ρυθμίσεις</message>
 </locale>

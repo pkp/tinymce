@@ -4,8 +4,8 @@
 <!--
   * locale.xml
   *
-  * Copyright (c) 2014-2017 Simon Fraser University
-  * Copyright (c) 2003-2017 John Willinsky
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
   * Localization strings for the ru_RU (Русский) locale.
@@ -14,7 +14,7 @@
 
 <locale name="ru_RU" full_name="Русский">
 	<message key="plugins.generic.tinymce.name">Модуль «TinyMCE»</message>
-	<message key="plugins.generic.tinymce.description"><![CDATA[Включает визуальное редактирование (WYSIWYG) текстовых областей с использованием редактора контента <a href="http://tinymce.moxiecode.com" target="_blank">TinyMCE</a>.]]></message>
+	<message key="plugins.generic.tinymce.description"><![CDATA[Включает визуальное редактирование (WYSIWYG) текстовых областей с использованием редактора контента <a href="https://www.tinymce.com" target="_blank">TinyMCE</a>.]]></message>
 	<message key="plugins.generic.tinymce.settings">Настройки</message>
 
 	<message key="plugins.generic.tinymce.pkpTags.listTags">Выбрать тэг</message>
