@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the ar_IQ (Arabic) locale.
+  -->
+
+<locale name="ar_IQ" full_name="العربية">
+	<message key="plugins.generic.tinymce.name">إضافة TinyMCE</message>
+	<message key="plugins.generic.tinymce.description"><![CDATA[هذه الإضافة تمكن التحرير بأسلوب WYSIWYG لمواضع النصوص باستعمال محرر المحتوى <a href="https://www.tiny.cloud/" target="_blank">TinyMCE</a>.]]></message>
+	<message key="plugins.generic.tinymce.settings">الإعدادات</message>
+
+	<message key="plugins.generic.tinymce.pkpTags.listTags">إختر علامة</message>
+	<message key="plugins.generic.tinymce.pkpTags.noneAvailable">لا تتوفر علامات لهذا الحقل.</message>
+	<message key="plugins.generic.tinymce.pkpTags.description">بإمكانك إدراج أي من العلامات الآتية:</message>
+
+	<message key="plugins.generic.tinymce.variables.principalContactName">اسم الاتصال الأساسي ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.principalContactEmail">العنوان البريدي للاتصال الأساسي ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactName">اسم الاتصال الداعم ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactEmail">العنوان البريدي للاتصال الداعم ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactPhone">هاتف الاتصال الداعم ("{$value}")</message>
+</locale>
