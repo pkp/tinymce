@@ -14,7 +14,7 @@
 
 <locale name="ru_RU" full_name="Русский">
 	<message key="plugins.generic.tinymce.name">Модуль «TinyMCE»</message>
-	<message key="plugins.generic.tinymce.description"><![CDATA[Включает визуальное редактирование (WYSIWYG) текстовых областей с использованием редактора контента <a href="https://www.tinymce.com" target="_blank">TinyMCE</a>.]]></message>
+	<message key="plugins.generic.tinymce.description"><![CDATA[Включает визуальное редактирование (WYSIWYG) текстовых областей с использованием редактора контента <a href="https://www.tiny.cloud" target="_blank">TinyMCE</a>.]]></message>
 	<message key="plugins.generic.tinymce.settings">Настройки</message>
 
 	<message key="plugins.generic.tinymce.pkpTags.listTags">Выбрать тэг</message>
