@@ -16,4 +16,12 @@
 	<message key="plugins.generic.tinymce.name">Editor TinyMCE</message>
 	<message key="plugins.generic.tinymce.description"><![CDATA[Questo plugin attiva la modifica WYSIWYG delle caselle di testo in OJS usando <a href="https://www.tinymce.com" target="_new">TinyMCE</a>.]]></message>
 	<message key="plugins.generic.tinymce.settings">Impostazioni</message>
+	<message key="plugins.generic.tinymce.pkpTags.listTags">Seleziona un tag</message>
+        <message key="plugins.generic.tinymce.pkpTags.noneAvailable">Nessun tag disponibile per questo campo.</message>
+        <message key="plugins.generic.tinymce.pkpTags.description">Puoi inserire uno qualsiasi di questi tags:</message>
+        <message key="plugins.generic.tinymce.variables.principalContactName">Nome principale contatto: "{$value}"</message>
+        <message key="plugins.generic.tinymce.variables.principalContactEmail">Principale contatto Email: "{$value}"</message>
+        <message key="plugins.generic.tinymce.variables.supportContactName">Nome per il supporto: "{$value}"</message>
+        <message key="plugins.generic.tinymce.variables.supportContactEmail">Email per il supporto: "{$value}"</message>
+        <message key="plugins.generic.tinymce.variables.supportContactPhone">Telefono per il supporto: "{$value}"</message>
 </locale>
