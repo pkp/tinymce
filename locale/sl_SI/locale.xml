@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the sl_SI (Slovenščina) locale.
+  -->
+
+<locale name="sl_SI" full_name="Slovenščina">
+	<message key="plugins.generic.tinymce.name">TinyMCE vtičnik</message>
+	<message key="plugins.generic.tinymce.description"><![CDATA[Vtičnik omogoča urejanje besedilnih polj v načinu WYSIWYG s pomočjo <a href="https://www.tinymce.com" target="_blank">TinyMCE</a> urejevalnika.]]></message>
+	<message key="plugins.generic.tinymce.settings">Nastavitve</message>
+
+	<message key="plugins.generic.tinymce.pkpTags.listTags">Izberi ozanko</message>
+	<message key="plugins.generic.tinymce.pkpTags.noneAvailable">Za to polje ni na voljo nobenih oznak.</message>
+	<message key="plugins.generic.tinymce.pkpTags.description">Vstavite lahko naslednje oznake:</message>
+
+	<message key="plugins.generic.tinymce.variables.principalContactName">Ime glavnega kontakta ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.principalContactEmail">Email glavnega kontakta ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactName">Ime kontakta za podporo ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactEmail">Email kontakta za podporo ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactPhone">Telefon kontakta za podporo ("{$value}")</message>
+</locale>
