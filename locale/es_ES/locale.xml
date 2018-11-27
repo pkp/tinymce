@@ -17,7 +17,7 @@
   <message key="plugins.generic.tinymce.settings">Ajustes</message>
 	<message key="plugins.generic.tinymce.pkpTags.listTags">Seleccionar etiqueta</message>
 	<message key="plugins.generic.tinymce.pkpTags.noneAvailable">No hay etiquetas disponibles para este campo.</message>
-	<message key="plugins.generic.tinymce.pkpTags.description">Puede insertar cualquiera de las etiquetas siguientes:</message>
+	<message key="plugins.generic.tinymce.pkpTags.description">Puede insertar cualquiera de las siguientes etiquetas:</message>
 	<message key="plugins.generic.tinymce.variables.principalContactName">Nombre del contacto principal ("{$value}")</message>
 	<message key="plugins.generic.tinymce.variables.principalContactEmail">Correo electrónico del contacto principal ("{$value}")</message>
 	<message key="plugins.generic.tinymce.variables.supportContactName">Nombre del contacto de soporte ("{$value}")</message>
