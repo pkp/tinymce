@@ -118,4 +118,3 @@ class TinyMCEPlugin extends GenericPlugin {
 	}
 }
 
-?>

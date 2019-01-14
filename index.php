@@ -22,4 +22,3 @@ require_once('TinyMCEPlugin.inc.php');
 
 return new TinyMCEPlugin();
 
-?>
