@@ -17,4 +17,14 @@
 	<message key="plugins.generic.tinymce.name">TinyMCE Plugin</message>
 	<message key="plugins.generic.tinymce.description"><![CDATA[Deze plugin verzorgt WYSIWYG bewerken in OMP tekstvelden met behulp van de <a href="https://www.tinymce.com" target="_blank">TinyMCE</a> content editor.]]></message>
 	<message key="plugins.generic.tinymce.settings">Instellingen</message>
+
+	<message key="plugins.generic.tinymce.pkpTags.listTags">Selecteer een element</message>
+	<message key="plugins.generic.tinymce.pkpTags.noneAvailable">Er zijn geen elementen beschikbaar voor dit veld.</message>
+	<message key="plugins.generic.tinymce.pkpTags.description">U kan volgende elementen invoegen:</message>
+
+	<message key="plugins.generic.tinymce.variables.principalContactName">Naam van eerste contactpersoon ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.principalContactEmail">E-mailadres van eerste contactpersoon ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactName">Naam van technische ondersteuning ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactEmail">E-mailadres van technische ondersteuning ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactPhone">Telefoonnummer van technische ondersteuning ("{$value}")</message>
 </locale>
