@@ -45,13 +45,6 @@ class TinyMCEPlugin extends GenericPlugin {
 	}
 
 	/**
-	 * @copydoc PKPPlugin::getTemplatePath()
-	 */
-	function getTemplatePath($inCore = false) {
-		return parent::getTemplatePath($inCore) . 'templates/';
-	}
-
-	/**
 	 * Register the TinyMCE JavaScript file
 	 *
 	 * Hooked to the the `display` callback in TemplateManager
