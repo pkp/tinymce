@@ -4,8 +4,8 @@
 <!--
   * locale.xml
   *
-  * Copyright (c) 2014-2018 Simon Fraser University
-  * Copyright (c) 2003-2018 John Willinsky
+  * Copyright (c) 2014-2019 Simon Fraser University
+  * Copyright (c) 2003-2019 John Willinsky
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
   * Localization strings for the el_GR (ελληνικά) locale.
@@ -16,10 +16,22 @@
   * Giannis Tsakonas (john@lis.upatras.gr),
   * Kiriazis Vasilis (vaskir@lis.upatras.gr),
   * Papaxristopoulos Leonidas (leonidasp@lis.upatras.gr)
+  *
+  * Updated by National Documentation Center (EKT) team, 2019
   -->
 
 <locale name="el_GR" full_name="ελληνικά">
-	<message key="plugins.generic.tinymce.name">TinyMCE Plugin</message>
-	<message key="plugins.generic.tinymce.description"><![CDATA[Το plugin αυτό ενεργοποιεί την WYSIWYG επεξεργασία των πεδίων κειμένου του OMP με την χρήση του  επεξεργαστή περιεχομένου <a href="https://www.tinymce.com" target="_blank">TinyMCE</a>.]]></message>
+	<message key="plugins.generic.tinymce.name">TinyMCE</message>
+	<message key="plugins.generic.tinymce.description"><![CDATA[Το Πρόσθετο αυτό ενεργοποιεί την WYSIWYG επεξεργασία των πεδίων κειμένου του OJS με την χρήση του επεξεργαστή περιεχομένου <a href="https://www.tinymce.com" target="_blank">TinyMCE</a>.]]></message>
 	<message key="plugins.generic.tinymce.settings">Ρυθμίσεις</message>
+
+	<message key="plugins.generic.tinymce.pkpTags.listTags">Επιλογή ετικέτας</message>
+	<message key="plugins.generic.tinymce.pkpTags.noneAvailable">Δεν υπάρχουν διαθέσιμες ετικέτες γι αυτό το πεδίο.</message>
+	<message key="plugins.generic.tinymce.pkpTags.description">Μπορείτε να εισάγετε από τις παρακάτω ετικέτες:</message>
+
+	<message key="plugins.generic.tinymce.variables.principalContactName">Κύριο όνομα επικοινωνίας ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.principalContactEmail">Κύριο email επικοινωνίας ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactName">Όνομα επαφής υποστήριξης ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactEmail">Email επαφής υποστήριξης ("{$value}")</message>
+	<message key="plugins.generic.tinymce.variables.supportContactPhone">Τηλέφωνο επαφής υποστήριξης ("{$value}")</message>
 </locale>
