@@ -45,6 +45,14 @@ class TinyMCEPlugin extends GenericPlugin {
 	}
 
 	/**
+	 * Determine whether the plugin can be disabled.
+	 * @return boolean
+	 */
+	function getCanDisable() {
+		return false;
+	}
+
+	/**
 	 * Register the TinyMCE JavaScript file
 	 *
 	 * Hooked to the the `display` callback in TemplateManager
