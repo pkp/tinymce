@@ -21,7 +21,7 @@ class TinyMCEPlugin extends GenericPlugin {
 	 */
 	function register($category, $path, $mainContextId = null) {
 		if (parent::register($category, $path, $mainContextId)) {
-			if ($this->getEnabled($mainContextId)) {
+			if ($this->getEnabled()) {
 				HookRegistry::register('TemplateManager::display',array(&$this, 'registerJS'));
 				HookRegistry::register('TemplateManager::registerJSLibraryData',array(&$this, 'registerJSData'));
 			}
@@ -74,32 +74,30 @@ class TinyMCEPlugin extends GenericPlugin {
 			)
 		);
 
-		return false;
-	}
-
-	/**
-	 * Register script data required by the JS library
-	 *
-	 * Hooked to the the `registerJSLibraryData` callback in TemplateManager.
-	 * This data is used to initialize the TinyMCE component.
-	 * @param $hookName string
-	 * @param $args array $args[0] is an array of plugin data.
-	 * @return boolean
-	 */
-	function registerJSData($hookName, $args) {
-		$request =& Registry::get('request');
-
-		$tinymceParams = array();
-
+		// Load the script data used by the JS library
+		$data = [];
 		$localeKey = substr(AppLocale::getLocale(), 0, 2);
 		$localePath = $request->getBaseUrl() . '/plugins/generic/tinymce/langs/' . $localeKey . '.js';
-
 		if (file_exists($localePath)) {
-			$tinymceParams['language']     = $localeKey;
-			$tinymceParams['language_url'] = $localePath;
+			$data['tinymceParams'] = [
+				'language' => $localeKey,
+				'language_url' => $localePath,
+			];
 		}
+		$context = $request->getContext();
+		if ($context) {
+			$data['uploadUrl'] = $request->getDispatcher()->url($request, ROUTE_API, $context->getPath(), '_uploadPublicFile/');
+		}
+		$templateManager->addJavaScript(
+			'tinymceData',
+			'$.pkp.plugins.generic = $.pkp.plugins.generic || {};' .
+				'$.pkp.plugins.generic.' . strtolower(get_class($this)) . ' = ' . json_encode($data) . ';',
+			[
+				'inline' => true,
+				'contexts' => 'backend',
+			]
+		);
 
-		$args[0][$this->getJavascriptNameSpace()] = array( 'tinymceParams' => json_encode($tinymceParams) . ';');
 
 		return false;
 	}
