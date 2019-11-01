@@ -21,7 +21,7 @@ class TinyMCEPlugin extends GenericPlugin {
 	 */
 	function register($category, $path, $mainContextId = null) {
 		if (parent::register($category, $path, $mainContextId)) {
-			if ($this->getEnabled()) {
+			if ($this->getEnabled($mainContextId)) {
 				HookRegistry::register('TemplateManager::display',array(&$this, 'registerJS'));
 				HookRegistry::register('TemplateManager::registerJSLibraryData',array(&$this, 'registerJSData'));
 			}
