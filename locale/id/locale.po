@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-02-08 03:45+0000\n"
+"PO-Revision-Date: 2020-02-08 04:14+0000\n"
 "Last-Translator: Ramli Baharuddin <ramli.baharuddin@relawanjurnal.id>\n"
 "Language-Team: Indonesian <http://translate.pkp.sfu.ca/projects/plugins/"
 "tinymce-plugin/id/>\n"
@@ -33,3 +33,15 @@ msgstr ""
 
 msgid "plugins.generic.tinymce.name"
 msgstr "Plugin TinyMCE"
+
+msgid "plugins.generic.tinymce.variables.supportContactPhone"
+msgstr "Nomor Narahubung Pendukung (\"{$value\"})"
+
+msgid "plugins.generic.tinymce.variables.supportContactEmail"
+msgstr "Surel Narahubung Pendukung (\"{$value\"})"
+
+msgid "plugins.generic.tinymce.variables.supportContactName"
+msgstr "Nama Narahubung Pendukung (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.principalContactEmail"
+msgstr "Surel Narahubung Utama (\"{$value}\")"
