@@ -15,7 +15,7 @@ msgid "plugins.generic.tinymce.name"
 msgstr "Plugin TinyMCE"
 
 msgid "plugins.generic.tinymce.description"
-msgstr "Este plugin permite edição WYSIWYG (What You See Is What You Get) em campos de texto através do editor de conteúdo <a href=\"https://www.tinymce.com\" target=\"_blank\">TinyMCE</a>."
+msgstr "Este plugin permite edição WYSIWYG (What You See Is What You Get) em campos de texto através do editor de conteúdo <a href=\"https://www.tiny.cloud\" target=\"_blank\">TinyMCE</a>."
 
 msgid "plugins.generic.tinymce.settings"
 msgstr "Configurações"
