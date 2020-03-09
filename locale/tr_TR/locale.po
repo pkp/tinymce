@@ -15,7 +15,7 @@ msgid "plugins.generic.tinymce.name"
 msgstr "TinyMCE Eklentisi"
 
 msgid "plugins.generic.tinymce.description"
-msgstr "Bu eklenti OMP yazı alanlarının <a href=\"https://www.tinymce.com\" target=\"_blank\">TinyMCE</a> içerik düzenleyici kullanılarak görüldüğü gibi yazılmasını sağlar."
+msgstr "Bu eklenti OMP yazı alanlarının <a href=\"https://www.tiny.cloud\" target=\"_blank\">TinyMCE</a> içerik düzenleyici kullanılarak görüldüğü gibi yazılmasını sağlar."
 
 msgid "plugins.generic.tinymce.settings"
 msgstr "Ayarlar"
