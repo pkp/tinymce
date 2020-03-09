@@ -15,7 +15,7 @@ msgid "plugins.generic.tinymce.name"
 msgstr "پلاگین TinyMCE"
 
 msgid "plugins.generic.tinymce.description"
-msgstr "با این پلاگین میتوان متون موجود در جعبه های متن را بصورتی که میخواهید ویرایش کنید. برای این کار از ویرایشگر محتوی <a href=\"https://www.tinymce.com\" target=\"_blank\">TinyMCE</a> استفاده میشود."
+msgstr "با این پلاگین میتوان متون موجود در جعبه های متن را بصورتی که میخواهید ویرایش کنید. برای این کار از ویرایشگر محتوی <a href=\"https://www.tiny.cloud\" target=\"_blank\">TinyMCE</a> استفاده میشود."
 
 msgid "plugins.generic.tinymce.settings"
 msgstr "تنظیمات"
