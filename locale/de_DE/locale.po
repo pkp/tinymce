@@ -15,7 +15,7 @@ msgid "plugins.generic.tinymce.name"
 msgstr "TinyMCE-Plugin"
 
 msgid "plugins.generic.tinymce.description"
-msgstr "Dieses Plugin aktiviert eine WSYWIG-Eingabe für Textfelder mittels des <a href=\"https://www.tinymce.com\" target=\"_blank\">TinyMCE</a>-Editors."
+msgstr "Dieses Plugin aktiviert eine WSYWIG-Eingabe für Textfelder mittels des <a href=\"https://www.tiny.cloud\" target=\"_blank\">TinyMCE</a>-Editors."
 
 msgid "plugins.generic.tinymce.settings"
 msgstr "Einstellungen"
