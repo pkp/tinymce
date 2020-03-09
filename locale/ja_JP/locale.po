@@ -15,7 +15,7 @@ msgid "plugins.generic.tinymce.name"
 msgstr "TinyMCEプラグイン"
 
 msgid "plugins.generic.tinymce.description"
-msgstr "<a href=\"https://www.tinymce.com\" target=\"_blank\">TinyMCE</a>コンテンツエディタを使って、テキストエリアの内容をWSYWIGで編集できるようにします。"
+msgstr "<a href=\"https://www.tiny.cloud\" target=\"_blank\">TinyMCE</a>コンテンツエディタを使って、テキストエリアの内容をWSYWIGで編集できるようにします。"
 
 msgid "plugins.generic.tinymce.settings"
 msgstr "設定"
