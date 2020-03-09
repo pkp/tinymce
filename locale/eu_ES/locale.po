@@ -15,7 +15,7 @@ msgid "plugins.generic.tinymce.name"
 msgstr "TinyMCE plugina"
 
 msgid "plugins.generic.tinymce.description"
-msgstr "Plugin honek WYSIWYG edizioa gaitzen du,  OMP testu-areetan <a href=\"https://www.tinymce.com\" target=\"_blank\">TinyMCE</a> editorearekin erabiltzeko ."
+msgstr "Plugin honek WYSIWYG edizioa gaitzen du,  OMP testu-areetan <a href=\"https://www.tiny.cloud\" target=\"_blank\">TinyMCE</a> editorearekin erabiltzeko ."
 
 msgid "plugins.generic.tinymce.settings"
 msgstr "Ezarpenak"
