@@ -15,7 +15,7 @@ msgid "plugins.generic.tinymce.name"
 msgstr "Plugin TinyMCE"
 
 msgid "plugins.generic.tinymce.description"
-msgstr "Tento plugin umožňuje WYSIWYG editování textových polí OMP s využitím <a href=\"https://www.tinymce.com\" target=\"_blank\">TinyMCE</a> editoru obsahu."
+msgstr "Tento plugin umožňuje WYSIWYG editování textových polí OMP s využitím <a href=\"https://www.tiny.cloud\" target=\"_blank\">TinyMCE</a> editoru obsahu."
 
 msgid "plugins.generic.tinymce.settings"
 msgstr "Nastavení"
