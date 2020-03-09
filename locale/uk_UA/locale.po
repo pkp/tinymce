@@ -15,7 +15,7 @@ msgid "plugins.generic.tinymce.name"
 msgstr "Модуль TinyMCE"
 
 msgid "plugins.generic.tinymce.description"
-msgstr "Вмикає візуальне редагування (WYSIWYG) в текстових полях з використанням редактора контента <a href=\"https://www.tinymce.com\" target=\"_blank\">TinyMCE</a>."
+msgstr "Вмикає візуальне редагування (WYSIWYG) в текстових полях з використанням редактора контента <a href=\"https://www.tiny.cloud\" target=\"_blank\">TinyMCE</a>."
 
 msgid "plugins.generic.tinymce.settings"
 msgstr "Налаштування"
