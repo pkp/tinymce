@@ -15,7 +15,7 @@ msgid "plugins.generic.tinymce.name"
 msgstr "TinyMCE"
 
 msgid "plugins.generic.tinymce.description"
-msgstr "Το Πρόσθετο αυτό ενεργοποιεί την WYSIWYG επεξεργασία των πεδίων κειμένου του OJS με την χρήση του επεξεργαστή περιεχομένου <a href=\"https://www.tinymce.com\" target=\"_blank\">TinyMCE</a>."
+msgstr "Το Πρόσθετο αυτό ενεργοποιεί την WYSIWYG επεξεργασία των πεδίων κειμένου του OJS με την χρήση του επεξεργαστή περιεχομένου <a href=\"https://www.tiny.cloud\" target=\"_blank\">TinyMCE</a>."
 
 msgid "plugins.generic.tinymce.settings"
 msgstr "Ρυθμίσεις"
