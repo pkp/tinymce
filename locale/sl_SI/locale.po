@@ -15,7 +15,7 @@ msgid "plugins.generic.tinymce.name"
 msgstr "TinyMCE vtičnik"
 
 msgid "plugins.generic.tinymce.description"
-msgstr "Vtičnik omogoča urejanje besedilnih polj v načinu WYSIWYG s pomočjo <a href=\"https://www.tinymce.com\" target=\"_blank\">TinyMCE</a> urejevalnika."
+msgstr "Vtičnik omogoča urejanje besedilnih polj v načinu WYSIWYG s pomočjo <a href=\"https://www.tiny.cloud\" target=\"_blank\">TinyMCE</a> urejevalnika."
 
 msgid "plugins.generic.tinymce.settings"
 msgstr "Nastavitve"
