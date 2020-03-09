@@ -15,7 +15,7 @@ msgid "plugins.generic.tinymce.name"
 msgstr "TinyMCE dodatak"
 
 msgid "plugins.generic.tinymce.description"
-msgstr "Ovaj dodatak omogućava vizualno oblikovanje OMP-ovih tekstualnih polja (\"kućica\") pomoću <a href=\"https://www.tinymce.com\" target=\"_blank\">TinyMCE</a> programa za uređivanje teksta."
+msgstr "Ovaj dodatak omogućava vizualno oblikovanje OMP-ovih tekstualnih polja (\"kućica\") pomoću <a href=\"https://www.tiny.cloud\" target=\"_blank\">TinyMCE</a> programa za uređivanje teksta."
 
 msgid "plugins.generic.tinymce.settings"
 msgstr "Postavke"
