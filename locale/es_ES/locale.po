@@ -15,7 +15,7 @@ msgid "plugins.generic.tinymce.name"
 msgstr "Módulo TinyMCE"
 
 msgid "plugins.generic.tinymce.description"
-msgstr "Este módulo habilita la edición WYSIWYG de las áreas de texto de OJS mediante el editor de contenidos <a href=\"https://www.tinymce.com\" target=\"_blank\">TinyMCE</a>."
+msgstr "Este módulo habilita la edición WYSIWYG de las áreas de texto de OJS mediante el editor de contenidos <a href=\"https://www.tiny.cloud\" target=\"_blank\">TinyMCE</a>."
 
 msgid "plugins.generic.tinymce.settings"
 msgstr "Ajustes"
