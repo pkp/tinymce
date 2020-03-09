@@ -15,7 +15,7 @@ msgid "plugins.generic.tinymce.name"
 msgstr "Mòdul d'integració amb TinyMCE"
 
 msgid "plugins.generic.tinymce.description"
-msgstr "Aquest mòdul activa l'edició WYSIWYG (\"el que veus, és el que tens\") a les àrees de text de l'OMP utilitzant l'editor de contingut <a href=\"https://www.tinymce.com\" target=\"_blank\">TinyMCE</a>."
+msgstr "Aquest mòdul activa l'edició WYSIWYG (\"el que veus, és el que tens\") a les àrees de text de l'OMP utilitzant l'editor de contingut <a href=\"https://www.tiny.cloud\" target=\"_blank\">TinyMCE</a>."
 
 msgid "plugins.generic.tinymce.settings"
 msgstr "Configuració"
