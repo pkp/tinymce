@@ -10,7 +10,7 @@
 
 html,
 body {
-	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+	font-family: "Noto Sans", "Noto Kufi Arabic", Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	background: #fff;
@@ -31,7 +31,7 @@ span.pkpTag {
 }
 
 a {
-	color: #007ab2;
+	color: #006798;
 }
 
 a:hover,
