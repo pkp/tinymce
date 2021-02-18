@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-02-09 08:32+0000\n"
+"Last-Translator: Teodora Fildishevska <t.fildishevska@gmail.com>\n"
+"Language-Team: Macedonian <http://translate.pkp.sfu.ca/projects/plugins/"
+"tinymce-plugin/mk_MK/>\n"
+"Language: mk_MK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.tinymce.variables.supportContactPhone"
+msgstr "Телефонски број на контакт лице за поддршка (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactEmail"
+msgstr "Е-пошта на контакт лице за поддршка (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactName"
+msgstr "Име на контакт лице за поддршка (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.principalContactEmail"
+msgstr "Е-пошта на главно лице за контакт (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.principalContactName"
+msgstr "Име на главно лице за контакт (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.pkpTags.description"
+msgstr "Можете да вметнете било која од следните ознаки:"
+
+msgid "plugins.generic.tinymce.pkpTags.noneAvailable"
+msgstr "Нема достапни ознаки за ова поле."
+
+msgid "plugins.generic.tinymce.pkpTags.listTags"
+msgstr "Изберете ознака"
+
+msgid "plugins.generic.tinymce.settings"
+msgstr "Поставки"
+
+msgid "plugins.generic.tinymce.description"
+msgstr ""
+"Овој плагин овозможува WYSIWYG уредување на текстови преку <a href=\""
+"https://www.tiny.cloud/\" target=\"_blank\">TinyMCE</a> уредник на содржина."
+
+msgid "plugins.generic.tinymce.name"
+msgstr "TinyMCE плагин"
