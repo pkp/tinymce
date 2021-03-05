@@ -22,38 +22,31 @@ tinymce.PluginManager.add('pkpTags', function(editor, url) {
 		}
 	});
 
-        editor.addButton('pkpTags', {
-		icon: 'nonbreaking', // FIXME: This looks OK, but might be inappropriate
-                type: 'panelbutton',
-                panel: {
-			icon: 'nonbreaking',
-                        autohide: true,
-			html: function() {
-				var variableMap = $.pkp.classes.TinyMCEHelper.prototype.getVariableMap('#' + editor.id),
-						markup = '<ul>';
-				if (variableMap.length === 0) {
-					markup += '<li>No tags are available.</li>';
-				}
-				$.each(variableMap, function(variable, value) {
-					var $anchor = $('<a>').attr('href', '#' + variable).text(value);
-					var $li = $('<li/>').append($anchor);
-					var $container = $('<span>').append($li);
-					markup += $container.html();
+        editor.ui.registry.addMenuButton('pkpTags', {
+		icon: 'non-breaking',
+		tooltip: 'Insert Tag',
+                fetch: function(callback) {
+			var variableMap = $.pkp.classes.TinyMCEHelper.prototype.getVariableMap('#' + editor.id),
+					items = [];
+			if (variableMap.length === 0) {
+				items.push({
+					type: 'menuitem',
+					text: 'No tags are available.',
+					disabled: true,
+					onAction: function() {}
 				});
-				markup += '</ul>';
-				return markup;
-			},
-                        onclick: function(e) {
-                                var linkElm = editor.dom.getParent(e.target, 'a');
-
-                                if (linkElm) {
-					$.pkp.classes.TinyMCEHelper.prototype.getVariableElement(linkElm.hash.substring(1), $(linkElm).text());
-					editor.insertContent(
-							$.pkp.classes.TinyMCEHelper.prototype.getVariableElement(linkElm.hash.substring(1), $(linkElm).text()).html());
-                                        this.hide();
-                                }
-                        }
-                },
-                tooltip: 'Insert Tag'
-        });
+			}
+			$.each(variableMap, function(variable, value) {
+				items.push({
+					type: 'menuitem',
+					text: value,
+					onAction: function() {
+						editor.insertContent(
+							$.pkp.classes.TinyMCEHelper.prototype.getVariableElement(variable, value).html());
+					}
+				});
+			});
+			callback(items);
+        	}
+	});
 });
