@@ -22,10 +22,10 @@ tinymce.PluginManager.add('pkpTags', function(editor, url) {
 		}
 	});
 
-        editor.ui.registry.addMenuButton('pkpTags', {
+	editor.ui.registry.addMenuButton('pkpTags', {
 		icon: 'non-breaking',
 		tooltip: 'Insert Tag',
-                fetch: function(callback) {
+		fetch: function(callback) {
 			var variableMap = $.pkp.classes.TinyMCEHelper.prototype.getVariableMap('#' + editor.id),
 					items = [];
 			if (variableMap.length === 0) {
@@ -47,6 +47,6 @@ tinymce.PluginManager.add('pkpTags', function(editor, url) {
 				});
 			});
 			callback(items);
-        	}
+		}
 	});
 });
