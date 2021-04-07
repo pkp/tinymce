@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-01 11:55+0000\n"
+"PO-Revision-Date: 2021-04-08 09:55+0000\n"
 "Last-Translator: Dimitri Gogelia <dimitri.gogelia@iliauni.edu.ge>\n"
 "Language-Team: Georgian <http://translate.pkp.sfu.ca/projects/plugins/"
 "tinymce-plugin/ka_GE/>\n"
@@ -13,3 +13,36 @@ msgstr ""
 
 msgid "plugins.generic.tinymce.settings"
 msgstr "პარამეტრები"
+
+msgid "plugins.generic.tinymce.name"
+msgstr "TinyMCE პლაგინი"
+
+msgid "plugins.generic.tinymce.description"
+msgstr ""
+"ეს პლაგინი საშუალებას გაძლევთ WYSIWYG-ით შეცვალოთ ტექსტების არეები <a href=\""
+"https://www.tiny.cloud/\" target=\"_blank\">TinyMCE</a> რედაქტორის "
+"გამოყენებით."
+
+msgid "plugins.generic.tinymce.pkpTags.listTags"
+msgstr "აირჩეთ ჭდე"
+
+msgid "plugins.generic.tinymce.pkpTags.noneAvailable"
+msgstr "ამ ველისთვის ჭდეები არ არის ხელმისაწვდომი."
+
+msgid "plugins.generic.tinymce.pkpTags.description"
+msgstr "შეგიძლიათ ჩასვათ შემდეგი ჭდეები:"
+
+msgid "plugins.generic.tinymce.variables.principalContactName"
+msgstr "ძირითადი საკონტაქტო სახელი (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.principalContactEmail"
+msgstr "ძირითადი საკონტაქტო ელფოსტა (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactName"
+msgstr "საკონტაქტო სახელი (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactEmail"
+msgstr "საკონტაქტო ელფოსტა (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactPhone"
+msgstr "საკონტაქტო ტელეფონი (\"{$value}\")"
