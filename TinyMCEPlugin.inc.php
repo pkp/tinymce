@@ -13,7 +13,12 @@
  * @brief TinyMCE WYSIWYG plugin for textareas - to allow cross-browser HTML editing
  */
 
-import('lib.pkp.classes.plugins.GenericPlugin');
+use PKP\plugins\GenericPlugin;
+use PKP\plugins\HookRegistry;
+use PKP\core\PKPApplication;
+
+use APP\i18n\AppLocale;
+use APP\core\Application;
 
 class TinyMCEPlugin extends GenericPlugin
 {
