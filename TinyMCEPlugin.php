@@ -15,13 +15,13 @@
 
 namespace APP\plugins\generic\tinymce;
 
+use APP\core\Application;
+use PKP\config\Config;
+
+use PKP\core\Registry;
+use PKP\facades\Locale;
 use PKP\plugins\GenericPlugin;
 use PKP\plugins\HookRegistry;
-use PKP\core\PKPApplication;
-use PKP\core\Registry;
-use PKP\config\Config;
-use APP\i18n\AppLocale;
-use APP\core\Application;
 
 class TinyMCEPlugin extends GenericPlugin
 {
@@ -60,7 +60,7 @@ class TinyMCEPlugin extends GenericPlugin
     /**
      * Determine whether the plugin can be disabled.
      *
-     * @return boolean
+     * @return bool
      */
     public function getCanDisable()
     {
@@ -72,10 +72,10 @@ class TinyMCEPlugin extends GenericPlugin
      *
      * Hooked to the the `display` callback in TemplateManager
      *
-     * @param $hookName string
-     * @param $args array
+     * @param string $hookName
+     * @param array $args
      *
-     * @return boolean
+     * @return bool
      */
     public function registerJS($hookName, $args)
     {
@@ -94,7 +94,7 @@ class TinyMCEPlugin extends GenericPlugin
 
         // Load the script data used by the JS library
         $data = [];
-        $localeKey = substr(AppLocale::getLocale(), 0, 2);
+        $localeKey = substr(Locale::getLocale(), 0, 2);
         $localePath = $request->getBaseUrl() . '/plugins/generic/tinymce/langs/' . $localeKey . '.js';
         if (file_exists($localePath)) {
             $data['tinymceParams'] = [
@@ -104,7 +104,7 @@ class TinyMCEPlugin extends GenericPlugin
         }
         $context = $request->getContext();
         if ($context) {
-            $data['uploadUrl'] = $request->getDispatcher()->url($request, PKPApplication::ROUTE_API, $context->getPath(), '_uploadPublicFile');
+            $data['uploadUrl'] = $request->getDispatcher()->url($request, Application::ROUTE_API, $context->getPath(), '_uploadPublicFile');
         }
         $templateManager->addJavaScript(
             'tinymceData',
