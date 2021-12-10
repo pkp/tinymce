@@ -1,10 +1,11 @@
+# TAKASHI IMAGIRE <imagire@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-19T11:05:27+00:00\n"
-"PO-Revision-Date: 2021-05-18 16:35+0000\n"
-"Last-Translator: Emma U <emmaupkp@gmail.com>\n"
+"PO-Revision-Date: 2021-12-11 17:15+0000\n"
+"Last-Translator: TAKASHI IMAGIRE <imagire@gmail.com>\n"
 "Language-Team: Japanese <http://translate.pkp.sfu.ca/projects/plugins/"
 "tinymce-plugin/ja_JP/>\n"
 "Language: ja_JP\n"
@@ -25,3 +26,24 @@ msgstr "設定"
 
 msgid "plugins.generic.tinymce.pkpTags.listTags"
 msgstr "タグを選択"
+
+msgid "plugins.generic.tinymce.variables.supportContactPhone"
+msgstr "技術支援担当者電話番号 (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactEmail"
+msgstr "技術支援担当者メールアドレス (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactName"
+msgstr "技術支援担当者名 (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.principalContactEmail"
+msgstr "連絡責任者メールアドレス (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.principalContactName"
+msgstr "連絡責任者名 (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.pkpTags.description"
+msgstr "以下のいずれかのタグを挿入することができます。"
+
+msgid "plugins.generic.tinymce.pkpTags.noneAvailable"
+msgstr "このフィールドにはタグはありません。"
