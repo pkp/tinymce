@@ -16,8 +16,4 @@
  *
  */
 
-
-
-require_once('TinyMCEPlugin.inc.php');
-
-return new TinyMCEPlugin();
+return new \APP\plugins\generic\tinymce\TinyMCEPlugin();

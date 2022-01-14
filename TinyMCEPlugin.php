@@ -13,10 +13,13 @@
  * @brief TinyMCE WYSIWYG plugin for textareas - to allow cross-browser HTML editing
  */
 
+namespace APP\plugins\generic\tinymce;
+
 use PKP\plugins\GenericPlugin;
 use PKP\plugins\HookRegistry;
 use PKP\core\PKPApplication;
-
+use PKP\core\Registry;
+use PKP\config\Config;
 use APP\i18n\AppLocale;
 use APP\core\Application;
 
