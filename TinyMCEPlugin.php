@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @file plugins/generic/tinymce/TinyMCEPlugin.inc.php
+ * @file plugins/generic/tinymce/TinyMCEPlugin.php
  *
  * Copyright (c) 2014-2020 Simon Fraser University
  * Copyright (c) 2003-2020 John Willinsky
@@ -135,4 +135,8 @@ class TinyMCEPlugin extends GenericPlugin
     {
         return __('plugins.generic.tinymce.description');
     }
+}
+
+if (!PKP_STRICT_MODE) {
+    class_alias('\APP\plugins\generic\tinymce\TinyMCEPlugin', '\TinyMCEPlugin');
 }
