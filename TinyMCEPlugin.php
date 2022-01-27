@@ -109,7 +109,7 @@ class TinyMCEPlugin extends GenericPlugin
         $templateManager->addJavaScript(
             'tinymceData',
             '$.pkp.plugins.generic = $.pkp.plugins.generic || {};' .
-                '$.pkp.plugins.generic.' . strtolower(get_class($this)) . ' = ' . json_encode($data) . ';',
+                '$.pkp.plugins.generic.tinymceplugin = ' . json_encode($data) . ';',
             [
                 'inline' => true,
                 'contexts' => 'backend',
