@@ -1,0 +1,48 @@
+# Studiorimau <studiorimau@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-10-26 00:23+0000\n"
+"Last-Translator: Studiorimau <studiorimau@gmail.com>\n"
+"Language-Team: Malay <http://translate.pkp.sfu.ca/projects/plugins/"
+"tinymce-plugin/ms/>\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.tinymce.variables.supportContactPhone"
+msgstr "Sokongan Telefon Hubungan (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactEmail"
+msgstr "E-mel Kenalan Sokongan (\"{$ value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactName"
+msgstr "Nama Kenalan Sokongan (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.principalContactEmail"
+msgstr "E-mel Hubungan Utama (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.principalContactName"
+msgstr "Nama Hubungan Utama (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.pkpTags.description"
+msgstr "Anda boleh memasukkan mana-mana tag berikut:"
+
+msgid "plugins.generic.tinymce.pkpTags.noneAvailable"
+msgstr "Tiada tag yang tersedia untuk bidang ini."
+
+msgid "plugins.generic.tinymce.pkpTags.listTags"
+msgstr "Pilih Tag"
+
+msgid "plugins.generic.tinymce.settings"
+msgstr "Tetapan"
+
+msgid "plugins.generic.tinymce.description"
+msgstr ""
+"Pluign ini membolehkan WYSIWYG mengedit textarea menggunakan <a href=\""
+"https://www.tiny.cloud/\" target=\"_blank\">TinyMCE</a> editor kandungan."
+
+msgid "plugins.generic.tinymce.name"
+msgstr "Plugin TinyMCE"
