@@ -1,0 +1,50 @@
+# Artashes Mirzoyan <amirzoyan@sci.am>, 2022.
+# Tigran Zargaryan <tigran@flib.sci.am>, 2022.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-07-03 04:31+0000\n"
+"Last-Translator: Tigran Zargaryan <tigran@flib.sci.am>\n"
+"Language-Team: Armenian <http://translate.pkp.sfu.ca/projects/plugins/"
+"tinymce-plugin/hy_AM/>\n"
+"Language: hy_AM\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.tinymce.variables.supportContactPhone"
+msgstr "Աջակցության կոնտակտային հեռախոսը (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactEmail"
+msgstr "Աջակցության կոնտակտային էլ․ փոստը (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactName"
+msgstr "Աջակցության կոնտակտային անունը (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.principalContactEmail"
+msgstr "Հիմնական կոնտակտային էլ․ փոստը (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.principalContactName"
+msgstr "Հիմնական կոնտակտային անունը (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.pkpTags.description"
+msgstr "Դուք կարող եք տեղադրել հետևյալ պիտակներից որևէ մեկը."
+
+msgid "plugins.generic.tinymce.pkpTags.noneAvailable"
+msgstr "Այս դաշտի համար պիտակներ չկան:"
+
+msgid "plugins.generic.tinymce.pkpTags.listTags"
+msgstr "Ընտրեք տէգը"
+
+msgid "plugins.generic.tinymce.settings"
+msgstr "Կարգավորումներ"
+
+msgid "plugins.generic.tinymce.description"
+msgstr ""
+"Այս փլագինը հնարավորություն է տալիս WYSIWYG-ին խմբագրել տեքստային տարածքները՝"
+" օգտագործելով <a href=\"https://www.tiny.cloud/\" target=\"_blank\""
+">TinyMCE</a> բովանդակության խմբագրիչը:"
+
+msgid "plugins.generic.tinymce.name"
+msgstr "TinyMCE փլագին"
