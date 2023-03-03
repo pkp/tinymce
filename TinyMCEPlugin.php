@@ -21,7 +21,7 @@ use PKP\config\Config;
 use PKP\core\Registry;
 use PKP\facades\Locale;
 use PKP\plugins\GenericPlugin;
-use PKP\plugins\HookRegistry;
+use PKP\plugins\Hook;
 
 class TinyMCEPlugin extends GenericPlugin
 {
@@ -34,7 +34,7 @@ class TinyMCEPlugin extends GenericPlugin
     {
         if (parent::register($category, $path, $mainContextId)) {
             if ($this->getEnabled($mainContextId)) {
-                HookRegistry::register('TemplateManager::display', [&$this, 'registerJS']);
+                Hook::add('TemplateManager::display', [&$this, 'registerJS']);
             }
             return true;
         }
