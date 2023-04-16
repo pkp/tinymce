@@ -8,6 +8,7 @@
  * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
  *
  * @class TinyMCEPlugin
+ *
  * @ingroup plugins_generic_tinymce
  *
  * @brief TinyMCE WYSIWYG plugin for textareas - to allow cross-browser HTML editing
