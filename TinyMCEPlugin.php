@@ -18,7 +18,6 @@ namespace APP\plugins\generic\tinymce;
 
 use APP\core\Application;
 use PKP\config\Config;
-
 use PKP\core\Registry;
 use PKP\facades\Locale;
 use PKP\plugins\GenericPlugin;
