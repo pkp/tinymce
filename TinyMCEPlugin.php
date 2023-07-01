@@ -30,11 +30,11 @@ class TinyMCEPlugin extends GenericPlugin
      *
      * @param null|mixed $mainContextId
      */
-    public function register($category, $path, $mainContextId = null)
+    public function register($category, $path, $mainContextId = null): bool
     {
         if (parent::register($category, $path, $mainContextId)) {
             if ($this->getEnabled($mainContextId)) {
-                Hook::add('TemplateManager::display', [&$this, 'registerJS']);
+                Hook::add('TemplateManager::display', $this->registerJS(...));
             }
             return true;
         }
@@ -44,7 +44,7 @@ class TinyMCEPlugin extends GenericPlugin
     /**
      * @copydoc Plugin::getContextSpecificPluginSettingsFile()
      */
-    public function getContextSpecificPluginSettingsFile()
+    public function getContextSpecificPluginSettingsFile(): string
     {
         return $this->getPluginPath() . '/settings.xml';
     }
@@ -52,17 +52,15 @@ class TinyMCEPlugin extends GenericPlugin
     /**
      * @copydoc Plugin::getInstallSitePluginSettingsFile()
      */
-    public function getInstallSitePluginSettingsFile()
+    public function getInstallSitePluginSettingsFile(): string
     {
         return $this->getPluginPath() . '/settings.xml';
     }
 
     /**
      * Determine whether the plugin can be disabled.
-     *
-     * @return bool
      */
-    public function getCanDisable()
+    public function getCanDisable(): bool
     {
         return false;
     }
@@ -71,13 +69,8 @@ class TinyMCEPlugin extends GenericPlugin
      * Register the TinyMCE JavaScript file
      *
      * Hooked to the the `display` callback in TemplateManager
-     *
-     * @param string $hookName
-     * @param array $args
-     *
-     * @return bool
      */
-    public function registerJS($hookName, $args)
+    public function registerJS(string $hookName, array $args): bool
     {
         $request = & Registry::get('request');
         $templateManager = & $args[0];
