@@ -87,12 +87,11 @@ class TinyMCEPlugin extends GenericPlugin
 
         // Load the script data used by the JS library
         $data = [];
-        $localeKey = substr(Locale::getLocale(), 0, 2);
-        $localePath = $request->getBaseUrl() . '/plugins/generic/tinymce/langs/' . $localeKey . '.js';
-        if (file_exists($localePath)) {
+        $localeKey = $this->getTinyMCELocale(Locale::getLocale());
+        if ($localeKey) {
             $data['tinymceParams'] = [
                 'language' => $localeKey,
-                'language_url' => $localePath,
+                'language_url' => $request->getBaseUrl() . '/plugins/generic/tinymce/langs/' . $localeKey . '.js',
             ];
         }
         $context = $request->getContext();
@@ -127,6 +126,42 @@ class TinyMCEPlugin extends GenericPlugin
     public function getDescription()
     {
         return __('plugins.generic.tinymce.description');
+    }
+
+
+    /**
+     * Find the best match for an existing TinyMCE locale.
+     * @param $locale Weblate locale.
+     * @return string A language code that's available in the TinyMCE 'langs' folder.
+     */
+    function getTinyMCELocale(string $locale) : ?string
+    {
+        $prefix = $this->getPluginPath() . '/langs/';
+        $suffix = '.js';
+        $preferences = [
+            'de' => 'de_DE',
+            'en' => 'en_US',
+            'es' => 'es_ES',
+            'fr' => 'fr_FR',
+            'pt' => 'pt_PT',
+        ];
+
+        $language = \Locale::getPrimaryLanguage($locale);
+        // Get a list of available options from the filesystem.
+        $availableLocaleFiles = glob("{$prefix}*{$suffix}");
+
+        // 1. Look for an exact match and return it.
+        if (in_array("{$prefix}{$locale}{$suffix}", $availableLocaleFiles)) return $locale;
+        // 2. Look in the preference list for a preferred fallback. -- No preferences defined so no need to do this step
+        if ($preference = $preferences[$locale] ?? false) return $preference;
+        // 3. Find the first match by language.
+        foreach ($availableLocaleFiles as $filename) {
+            if (strpos($filename, "{$prefix}{$language}{$prefix}") === 0 || strpos($filename, "{$prefix}{$language}_") === 0) {
+                $substring = substr($filename, strlen($prefix), -strlen($suffix));
+                return substr($filename, strlen($prefix), -strlen($suffix));
+            }
+        }
+        return null;
     }
 }
 
