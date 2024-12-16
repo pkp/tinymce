@@ -103,9 +103,8 @@ class TinyMCEPlugin extends GenericPlugin
             ];
         }
         $context = $request->getContext();
-        if ($context) {
-            $data['uploadUrl'] = $request->getDispatcher()->url($request, Application::ROUTE_API, $context->getPath(), '_uploadPublicFile');
-        }
+        $contextPath = $context?->getPath() ?? Application::CONTEXT_SITE;
+        $data['uploadUrl'] = $request->getDispatcher()->url($request, Application::ROUTE_API, $contextPath, '_uploadPublicFile');
         $templateManager->addJavaScript(
             'tinymceData',
             '$.pkp.plugins.generic = $.pkp.plugins.generic || {};' .
