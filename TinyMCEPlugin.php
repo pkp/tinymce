@@ -73,7 +73,7 @@ class TinyMCEPlugin extends GenericPlugin
     public function registerJS(string $hookName, array $args): bool
     {
         $request = & Registry::get('request');
-        $templateManager = & $args[0];
+        $templateManager = &$args[0];
 
         // Load the TinyMCE JavaScript file
         $min = Config::getVar('general', 'enable_minified') ? '.min' : '';
@@ -130,10 +130,12 @@ class TinyMCEPlugin extends GenericPlugin
 
     /**
      * Find the best match for an existing TinyMCE locale.
+     *
      * @param $locale Weblate locale.
+     *
      * @return string A language code that's available in the TinyMCE 'langs' folder.
      */
-    function getTinyMCELocale(string $locale) : ?string
+    public function getTinyMCELocale(string $locale): ?string
     {
         $prefix = $this->getPluginPath() . '/langs/';
         $suffix = '.js';
@@ -150,9 +152,13 @@ class TinyMCEPlugin extends GenericPlugin
         $availableLocaleFiles = glob("{$prefix}*{$suffix}");
 
         // 1. Look for an exact match and return it.
-        if (in_array("{$prefix}{$locale}{$suffix}", $availableLocaleFiles)) return $locale;
+        if (in_array("{$prefix}{$locale}{$suffix}", $availableLocaleFiles)) {
+            return $locale;
+        }
         // 2. Look in the preference list for a preferred fallback. -- No preferences defined so no need to do this step
-        if ($preference = $preferences[$locale] ?? false) return $preference;
+        if ($preference = $preferences[$locale] ?? false) {
+            return $preference;
+        }
         // 3. Find the first match by language.
         foreach ($availableLocaleFiles as $filename) {
             if (strpos($filename, "{$prefix}{$language}{$prefix}") === 0 || strpos($filename, "{$prefix}{$language}_") === 0) {
