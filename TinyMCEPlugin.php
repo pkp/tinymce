@@ -88,7 +88,7 @@ class TinyMCEPlugin extends GenericPlugin
         // Load the script data used by the JS library
         $data = [];
         $localeKey = $this->getTinyMCELocale(Locale::getLocale());
-        if ($localeKey) {
+        if ($localeKey && $localeKey !== 'en_US') {
             $data['tinymceParams'] = [
                 'language' => $localeKey,
                 'language_url' => $request->getBaseUrl() . '/plugins/generic/tinymce/langs/' . $localeKey . '.js',
