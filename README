@@ -27,11 +27,6 @@ To install the plugin:
 
 Select textareas should now be enabled with the TinyMCE editor.
 
-Localization
-------------
-TinyMCE language packs are available on the TinyMCE website at: <https://www.tiny.cloud/download/language-packages/>.
-Language packs should be installed under the langs/ subdirectory of this plugin.
-
 Contact/Support
 ---------------
 Please contact the Public Knowledge Project for support, bugfixes, or comments.
