@@ -169,7 +169,3 @@ class TinyMCEPlugin extends GenericPlugin
         return null;
     }
 }
-
-if (!PKP_STRICT_MODE) {
-    class_alias('\APP\plugins\generic\tinymce\TinyMCEPlugin', '\TinyMCEPlugin');
-}
