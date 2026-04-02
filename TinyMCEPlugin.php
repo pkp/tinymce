@@ -88,7 +88,7 @@ class TinyMCEPlugin extends GenericPlugin
         // Load the script data used by the JS library
         $data = [];
         $localeKey = $this->getTinyMCELocale(Locale::getLocale());
-        if ($localeKey && $localeKey !== 'en_US') {
+        if ($localeKey) {
             $data['tinymceParams'] = [
                 'language' => $localeKey,
                 'language_url' => $request->getBaseUrl() . '/plugins/generic/tinymce/langs/' . $localeKey . '.js',
@@ -140,11 +140,9 @@ class TinyMCEPlugin extends GenericPlugin
         $prefix = $this->getPluginPath() . '/langs/';
         $suffix = '.js';
         $preferences = [
-            'de' => 'de_DE',
-            'en' => 'en_US',
-            'es' => 'es_ES',
-            'fr' => 'fr_FR',
             'pt' => 'pt_PT',
+            'zh_Hans' => 'zh_CN',
+            'zh_Hant' => 'zh_TW',
         ];
 
         $language = \Locale::getPrimaryLanguage($locale);
@@ -155,14 +153,13 @@ class TinyMCEPlugin extends GenericPlugin
         if (in_array("{$prefix}{$locale}{$suffix}", $availableLocaleFiles)) {
             return $locale;
         }
-        // 2. Look in the preference list for a preferred fallback. -- No preferences defined so no need to do this step
+        // 2. Look in the preference list for a preferred fallback.
         if ($preference = $preferences[$locale] ?? false) {
             return $preference;
         }
         // 3. Find the first match by language.
         foreach ($availableLocaleFiles as $filename) {
-            if (strpos($filename, "{$prefix}{$language}{$prefix}") === 0 || strpos($filename, "{$prefix}{$language}_") === 0) {
-                $substring = substr($filename, strlen($prefix), -strlen($suffix));
+            if (strpos($filename, "{$prefix}{$language}{$suffix}") === 0 || strpos($filename, "{$prefix}{$language}_") === 0) {
                 return substr($filename, strlen($prefix), -strlen($suffix));
             }
         }
